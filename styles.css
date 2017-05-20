@@ -1,67 +1,48 @@
 
 * {
-
+  box-sizing: border-box;
 }
 
 .main-container{
-  display: inline-flex;
+  display: flex;
+  flex-wrap: wrap;
   height: 100vh;
 }
 
 .left-side {
   display: inline-flex;
-  flex-flow: row wrap;
+  flex-wrap: wrap;
   height: 100vh;
-  width: 750px;
+  width: 65%;
 }
 
 .right-side {
-  width: 500px;
-  height: 100vh;
+  width: 35%;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 div {
-  width: 250px;
-  height: 250px;
+  width: 33.33333%;
+  height: 33.3333vh;
 }
 
 .title-card {
   background-color: black;
   color: white;
-  width: 500px;
-  height: 250px;
+  width: 66.6666%
 }
 
-.hosts {
-  background-color: gray;
-  color: white;
-  height: 250px;
-}
-
-.blue-barracudas {
-  background-color: #0B55A2;
-}
-
-.green-monkeys {
-  background-color: #2B4242;
-}
-
-.orange-iguanas {
-  background-color: #F16631;
-}
-
-.purple-parrots {
-  background-color: #65328E;
-}
-
-.red-jaguars {
-  background-color: #EA202E;
-}
-
-.silver-snakes {
-  background-color: #C8C6C7;
-}
-
+.title-card {background: #35BC7A;}
+.profile {background: #FF9E00;}
+.experience {background: #1E8BC4;}
+.education {background: #F15A49;}
+.blog {background: #35BC7A;}
+.social-menu {background: #F86925;}
+.contact {background: #1E8BC4;}
+.portfolio {background: #F86925;}
 .right-side {
   display: flex;
   justify-content: center;
@@ -69,8 +50,7 @@ div {
 }
 
 .picture {
-  background-image: url(https://s-media-cache-ak0.pinimg.com/originals/23/6b/ac/236bac7a5e55ceab37d9116567d2f188.jpg);
-  height: 380px;
-  width: 330px;
-  box-sizing: border-box;
+  background-image:
+  background-repeat: no-repeat;
+  background-size: cover;
 }
