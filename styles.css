@@ -1,0 +1,76 @@
+
+* {
+
+}
+
+.main-container{
+  display: inline-flex;
+  height: 100vh;
+}
+
+.left-side {
+  display: inline-flex;
+  flex-flow: row wrap;
+  height: 100vh;
+  width: 750px;
+}
+
+.right-side {
+  width: 500px;
+  height: 100vh;
+}
+
+div {
+  width: 250px;
+  height: 250px;
+}
+
+.title-card {
+  background-color: black;
+  color: white;
+  width: 500px;
+  height: 250px;
+}
+
+.hosts {
+  background-color: gray;
+  color: white;
+  height: 250px;
+}
+
+.blue-barracudas {
+  background-color: #0B55A2;
+}
+
+.green-monkeys {
+  background-color: #2B4242;
+}
+
+.orange-iguanas {
+  background-color: #F16631;
+}
+
+.purple-parrots {
+  background-color: #65328E;
+}
+
+.red-jaguars {
+  background-color: #EA202E;
+}
+
+.silver-snakes {
+  background-color: #C8C6C7;
+}
+
+.right-side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.picture {
+  background-image: url(https://s-media-cache-ak0.pinimg.com/originals/23/6b/ac/236bac7a5e55ceab37d9116567d2f188.jpg);
+  height: 380px;
+  width: 330px;
+  box-sizing: border-box;
+}
