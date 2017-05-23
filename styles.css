@@ -1,6 +1,7 @@
 
 * {
-  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
 }
 
 .main-container{
@@ -10,47 +11,155 @@
 }
 
 .left-side {
-  display: inline-flex;
+  display: flex;
+  justify-content: flex-start;
   flex-wrap: wrap;
   height: 100vh;
   width: 65%;
 }
 
-.right-side {
-  width: 35%;
-  background-repeat: no-repeat;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+h1 {
+  font-size: 24px;
+  font-weight: 700;
+  margin: inherit;,
 }
 
-div {
-  width: 33.33333%;
-  height: 33.3333vh;
+.title-content p {
+  margin-top: 20px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 20px;
 }
 
 .title-card {
   background-color: black;
-  color: white;
   width: 66.6666%
 }
 
-.title-card {background: #35BC7A;}
-.profile {background: #FF9E00;}
-.experience {background: #1E8BC4;}
-.education {background: #F15A49;}
-.blog {background: #35BC7A;}
-.social-menu {background: #F86925;}
-.contact {background: #1E8BC4;}
-.portfolio {background: #F86925;}
-.right-side {
+.title-content {
   display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+}
+
+button {
+  background-color: inherit;
+  border: 1px solid white;
+}
+
+.contact-button {
+  margin-left: 10px;
+}
+
+article {
+  display: flex;
+  width: 33.33333%;
+  height: 33.3333%;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.picture {
-  background-image:
+.icon {
+  height: 64px;
+}
+
+.box-content {
+  align-items: center;
+  justify-content: center;
+}
+
+.title-card {background: #002244;}
+.profile {background: #69BE28;}
+.experience {background: #A5ACAF;}
+.education {background: #ABD67E;}
+.blog {background: #002244;}
+.social-menu {background: #69BE28;}
+.contact {background: #A5ACAF;}
+.portfolio {background: #ABD67E;}
+
+.right-side {
+  width: 35%;
+  background-repeat: no-repeat;
+  display: flex;
+  background-image: url('assets/marshawn.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.navigation div {
+  height: 12px;
+  width: 12px;
+  display: inline-block;
+  margin: .5px;
+  border-radius: 50%;
+  background-color: #ABD67E;
+}
+
+.navigation .nav1 {
+  background-color: #A5ACAF;
+}
+
+.left-button,
+.right-button {
+  border: 0;
+  opacity: 0.8;
+}
+.left-button {
+  transform: rotate(180deg);
+}
+
+
+/********************************
+          Media Queries
+**********************************/
+
+@media screen and (max-width: 900px) {
+  .right-side {
+    order: -1;
+    width: 100%;
+    height: 50vh;
+    background-position: top;
+    background-image: url('assets/marshawn-top.jpg');
+  }
+
+  .left-side {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  .title-card {
+    width: 100%;
+  }
+  .box {
+    width: 50%;
+    height: 25vh;
+  }
+
+  .portfolio {
+    width: 100%
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+  article {
+    width: 50%;
+  }
+
+
+
 }
