@@ -1,6 +1,6 @@
 # static-comp-1
 
-<img width="1280" alt="screen shot 2017-05-23 at 9 12 39 am" src="https://cloud.githubusercontent.com/assets/25092178/26361436/32af6d72-3f98-11e7-98b5-ba0132d675cb.png">
+<img width="1040" alt="screen shot 2017-05-23 at 9 23 44 am" src="https://cloud.githubusercontent.com/assets/25092178/26362017/f9e38468-3f99-11e7-994d-016da0408810.png">
 
 ![static-comp-challenge-1](https://cloud.githubusercontent.com/assets/25092178/26361457/436ba41e-3f98-11e7-98c3-a9054d3610b3.jpg)
 
